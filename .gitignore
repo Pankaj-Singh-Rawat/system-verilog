@@ -1,0 +1,37 @@
+# Simulation outputs
+*.vcd
+*.fst
+*.lxt
+*.lxt2
+*.ghw
+
+# Compiled simulation executables
+*.out
+*.o
+*.a
+*.so
+*.dylib
+
+# Icarus Verilog
+*.vvp
+
+# Verilator
+obj_dir/
+verilator_obj_dir/
+
+# GHDL
+work-obj*.cf
+*.cf
+
+# Waveform files
+waveforms/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.tmp
+*.log
