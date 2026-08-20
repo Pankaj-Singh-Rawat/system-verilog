@@ -35,3 +35,13 @@ waveforms/
 # Temporary files
 *.tmp
 *.log
+
+# Ignore everything inside verilog/
+verilog/*
+
+# But allow directories
+!verilog/*/
+
+# Allow Verilog source files
+!verilog/**/*.v
+!verilog/*.v
