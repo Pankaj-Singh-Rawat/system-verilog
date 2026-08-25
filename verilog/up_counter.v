@@ -8,7 +8,7 @@ module up_counter (
     if (!rst_n) begin
       count <= 4'b0000;
     end else if (enable) begin
-      count <= count + 1'b0;
+      count <= count + 1'b1;
     end
   end
 endmodule 
