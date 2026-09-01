@@ -9,6 +9,6 @@ module icg_cell(
     if (!clk) latch_en <= enable;
   end
   
-  assgn gated_clk = clk & latch_en;
+  assign gated_clk = clk & latch_en;
   
 endmodule
