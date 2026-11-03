@@ -10,8 +10,9 @@ module tb_half_subtractor();
   );
   
   initial begin
-    $dumpfile("dump.vcd");
-    $dumpvars(0, tb_half_subtractor);
+    // use in case of simulating in EDA Playground
+    // $dumpfile("dump.vcd");
+    // $dumpvars(0, tb_half_subtractor);
     $display("time\t a b | diff borrow");
     $monitor("%t\t\t %b %b | %b %b", $time, a, b, diff, borrow);
     
