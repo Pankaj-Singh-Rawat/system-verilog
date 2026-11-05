@@ -3,7 +3,7 @@ module d_ff(
     output logic q
 );
 
-    always_ff @(posedge clk or rst_n) begin
+    always_ff @(posedge clk or negedge rst_n) begin
         if (!rst_n) begin
             q <= 1'b0;
         end else begin
